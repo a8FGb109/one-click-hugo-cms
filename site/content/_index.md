@@ -3,15 +3,15 @@ title: Great coffee sampled
 subtitle: We taste and review them
 image: /img/home-jumbotron.jpg
 blurb:
-  heading: Why SampleRoast?
+  heading: Why sampleroast?
   text: >-
-    At SampleRoast we believe finding great coffee shouldn't be a guessing
+    At sampleroast we believe finding great coffee shouldn't be a guessing
     game.  We taste the latest offerings, from roasters around the country, and
     review them for you.
 intro:
   heading: What we offer
   text: >-
-    SampleRoast is the ultimate spot for coffee lovers who want to expand their
+    sampleroast is the ultimate spot for coffee lovers who want to expand their
     knowledge of coffee. We take coffee production, roasting and brewing
     seriously and we’re glad to pass that knowledge to anyone.
 products:
@@ -28,6 +28,6 @@ products:
 values:
   heading: Our values
   text: >-
-    Coffee has the power to bring people together.   At SampleRoast, we want to
+    Coffee has the power to bring people together.   At sampleroast, we want to
     share coffee knowledge and foster a joint love for coffee and community.
 ---
