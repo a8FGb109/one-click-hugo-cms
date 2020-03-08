@@ -8,3 +8,4 @@ image: /img/blur-bracelets-caffeine-close-up-272887.jpg
 ## This is just a test
 
 Hello World!
+[Knowledge]({{< ref "brewing-chemex.md" >}})
