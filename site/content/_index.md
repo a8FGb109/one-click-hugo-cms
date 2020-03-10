@@ -7,9 +7,9 @@ blurb:
     At SampleRoast we believe finding great coffee shouldn't be a guessing
     game.  We taste the latest offerings, from roasters around the country, and review them for you.
 intro:
-  heading: We love great coffee!
+  heading: We love coffee!
   text: >-
-    SampleRoast was created on the simple premise that great coffee should be shared.  By tasting coffees and sharing our reviews, we hope to expand coffee knowledge everywhere. 
+    SampleRoast was created on the simple premise that great coffee should be shared.  By tasting coffee and sharing our reviews, we hope to expand coffee knowledge everywhere. 
 reviews:
   - image: img/illustrations-coffee.svg
     heading: Balanced and fair
@@ -25,7 +25,7 @@ knowledge:
     SampleRoast is the ultimate spot for coffee lovers who want to expand their
     knowledge of coffee.  We take coffee farming, processing, roasting, and brewing
     seriously.  Check out the Knowledge section for our latest coffee articles. 
-values:
+about:
   heading: Our values
   text: >-
     We believe coffee has the power to bring people together.   At SampleRoast, our aim is to share coffee 
