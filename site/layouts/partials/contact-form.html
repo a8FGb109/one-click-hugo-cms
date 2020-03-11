@@ -25,12 +25,14 @@
       <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
       <label for="message">Your message</label>
     </fieldset>
+
+    <!-- recaptcha -->
+    <div class="tc" netlify-recaptcha></div>
     <!-- Button -->
     <div class="tc">
       <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
     </div>
-    <!-- recaptcha -->
-    <div netlify-recaptcha></div>
+  
     <!--honeypot-->
     <div class="hidden">
       <label>Don’t fill this out if you're human: <input name="phone" /></label>
