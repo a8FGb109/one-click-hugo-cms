@@ -1,16 +1,27 @@
 <div class="bg-white pv4">
 
     <div class="mw7 center">
-        <ul class="flex-ns flex-wrap mhn1-ns pa3">
-            {{ $paginator := .Paginate (where .Site.Pages "Section" "reviews") 4 }}
-            {{ range .Paginator.ByPublishDate.Reverse }}
+          {{ range $index, $element := first 10 (where site.RegularPages "Section" "eq" "reviews") }}
+	
+
             <div class="w-50-ns ph1-ns flex">
-              {{ .Render "li"}}
+              <div class="mw6 center ph3 pv4">
+                <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+                <div class="flex justify-between grey-3">
+                  <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+                  <p>Read in {{ .ReadingTime }} minutes</p>
+                </div>
+                <div class="cms mw6">
+                  <p>{{ .Description }}</p>
+                  {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+                  {{ .Content }}
+                </div>
+              </div>
+            
             </div>
             
             {{ end }}
             
-        </ul>
      
       </div>
 
