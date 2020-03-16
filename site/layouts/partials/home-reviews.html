@@ -1,29 +1,15 @@
 <div class="bg-white pv4">
 
     <div class="mw7 center">
-          {{ range $index, $element := first 10 (where site.RegularPages "Section" "eq" "reviews") }}
-	
-
-            <div class="w-50-ns ph1-ns flex">
-              <div class="mw6 center ph3 pv4">
-                <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-                <div class="flex justify-between grey-3">
-                  <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-                  <p>Read in {{ .ReadingTime }} minutes</p>
+        <ul class="flex-ns flex-wrap mhn1-ns pa3">
+            {{ range $index, $element := last 4 (where site.RegularPages "Section" "eq" "reviews") }}
+                <div class="w-50-ns ph1-ns flex">
+                {{ .Render "summary" }}
                 </div>
-                <div class="cms mw6">
-                  <p>{{ .Description }}</p>
-                  {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-                  {{ .Content }}
-                </div>
-              </div>
+                {{ end }}
+        </ul>
             
-            </div>
-            
-            {{ end }}
-            
-     
-      </div>
+    </div>
 
     <div class="tc">
         <a href="/reviews" class="btn raise">See our latest reviews</a>
