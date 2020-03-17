@@ -1,6 +1,6 @@
 ---
 title: Great coffee sampled
-image: /img/home-jumbotron.jpg
+image: https://img.sampleroast.com/home-jumbotron.jpg
 blurb:
   heading: What is SampleRoast?
   text: >-

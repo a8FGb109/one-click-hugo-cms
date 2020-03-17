@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-logo: "/img/logo.png"
+logo: "https://img.sampleroast.com/logo.png"
 ---
 
 Our aim is to grow and improve. Your feedback is valuable to us.  
